@@ -6,7 +6,7 @@
 /*   By: gafernan <gafernan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/27 13:22:56 by gafernan          #+#    #+#             */
-/*   Updated: 2022/10/18 13:10:25 by gafernan         ###   ########.fr       */
+/*   Updated: 2022/10/24 14:56:28 by gafernan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,5 +23,6 @@ int	ft_putstr(char *str);
 int	ft_puthexa(unsigned int n, char *base);
 int	ft_putvoid(unsigned long n, char base, int start);
 int	ft_check(va_list list, const char c);
+int	ft_putunbr(unsigned int n);
 
 #endif
