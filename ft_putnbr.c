@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gafernan <gafernan@student.42.fr>          +#+  +:+       +#+        */
+/*   By: gaizkafernandezribeiro <gaizkafernandez    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/27 13:35:54 by gafernan          #+#    #+#             */
-/*   Updated: 2022/09/27 14:14:42 by gafernan         ###   ########.fr       */
+/*   Updated: 2022/10/25 18:38:33 by gaizkaferna      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <ft_printf.h>
+#include "ft_printf.h"
 
 int	ft_putnbr(int n)
 {
@@ -28,8 +28,8 @@ int	ft_putnbr(int n)
 		l += ft_putchar(n + '0');
 	else
 	{
-		l *= ft_putnbr(n / 10);
-		l *= ft_putnbr(n % 10);
+		l += ft_putnbr(n / 10);
+		l += ft_putnbr(n % 10);
 	}
 	return (l);
 }

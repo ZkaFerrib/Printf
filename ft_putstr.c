@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gafernan <gafernan@student.42.fr>          +#+  +:+       +#+        */
+/*   By: gaizkafernandezribeiro <gaizkafernandez    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/27 13:52:44 by gafernan          #+#    #+#             */
-/*   Updated: 2022/09/27 13:57:49 by gafernan         ###   ########.fr       */
+/*   Updated: 2022/10/25 19:07:19 by gaizkaferna      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <ft_printf.h>
+#include "ft_printf.h"
 
 int	ft_putstr(char *str)
 {
@@ -21,7 +21,7 @@ int	ft_putstr(char *str)
 		return (ft_putstr("(null)"));
 	while (str[i])
 	{
-		wirte(1, &str[i++], 1);
-		return (i);
+		write(1, &str[i++], 1);
 	}
+	return (i);
 }

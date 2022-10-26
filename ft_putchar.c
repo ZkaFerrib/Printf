@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putchar.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gafernan <gafernan@student.42.fr>          +#+  +:+       +#+        */
+/*   By: gaizkafernandezribeiro <gaizkafernandez    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/27 13:27:15 by gafernan          #+#    #+#             */
-/*   Updated: 2022/09/27 13:30:15 by gafernan         ###   ########.fr       */
+/*   Updated: 2022/10/25 18:39:07 by gaizkaferna      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <ft_printf.h>
+#include "ft_printf.h"
 
 int	ft_putchar(char c)
 {

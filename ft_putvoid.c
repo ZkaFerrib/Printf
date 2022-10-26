@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putvoid.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gafernan <gafernan@student.42.fr>          +#+  +:+       +#+        */
+/*   By: gaizkafernandezribeiro <gaizkafernandez    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/27 14:59:47 by gafernan          #+#    #+#             */
-/*   Updated: 2022/09/27 14:59:51 by gafernan         ###   ########.fr       */
+/*   Updated: 2022/10/25 11:57:28 by gaizkaferna      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

@@ -3,14 +3,14 @@
 #                                                         :::      ::::::::    #
 #    makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: gafernan <gafernan@student.42.fr>          +#+  +:+       +#+         #
+#    By: gaizkafernandezribeiro <gaizkafernandez    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/09/27 16:16:13 by gafernan          #+#    #+#              #
-#    Updated: 2022/09/27 16:59:00 by gafernan         ###   ########.fr        #
+#    Updated: 2022/10/25 12:17:43 by gaizkaferna      ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = ft_printf.a
+NAME = libftprintf.a
 
 SRC = ft_printf.c	\
 			ft_putchar.c	\
@@ -20,7 +20,7 @@ SRC = ft_printf.c	\
 			ft_puthexa.c	\
 			ft_putstr.c
 
-OBJ = $(SRC.c=.o)
+OBJ = $(SRC:.c=.o)
 
 CFLAGS = -Wall -Wextra -Werror
 
